@@ -1,9 +1,9 @@
 def main():
     ##################################################
     # Comlete your code here
-    str = ['Python', ' Programming']
-    sub1 = str[0]
-    sub2 = str[-1]
+    str = 'Python Programming'
+    sub1 = str[: 6]
+    sub2 = str[-11 :]
     print(sub2)
     print(sub1)
     print(sub1 + sub2)
